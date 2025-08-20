@@ -1,0 +1,61 @@
+footer {
+    background-color: #fff7e0;
+}
+
+.wave_item {
+  filter: brightness(0) contrast(100%);
+  display: block;
+  margin-bottom: -50px;
+}
+
+#footer_items {
+    display: flex;
+    flex-direction: column;  /* força os itens em coluna */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px; /* dá um respiro entre o mapa e os botões */
+    padding: 20px 2% 50px 2%; /* centraliza melhor */
+}
+
+#footer .copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff7e0;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 225, 0, 0.3); /* opcional, separa visualmente */
+}
+
+.map-wrapper iframe {
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .wave_item {
+    filter: brightness(0) contrast(100%);
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .map-wrapper iframe {
+        width: 350px;
+        height: 200px;
+        align-content: center;
+    }
+    
+    #map-container {
+        max-width: 370px;
+    }
+}
