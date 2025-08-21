@@ -29,7 +29,7 @@
 .stories-carousel {
     display: flex;
     gap: 20px;
-    animation: 30s infinite slide linear;
+    animation: slide 60s linear infinite;
     width: max-content;
 }
 
@@ -61,11 +61,11 @@
 
 /* Animação suave */
 @keyframes slide {
-    0% {
+    from {
         transform: translateX(0);
     }
-    100% {
-        transform: translateX(-1100px);
+    to {
+        transform: translateX(-5100px);
     }
 }
 
