@@ -24,7 +24,6 @@ footer {
     color: #fff7e0;
     margin-top: 20px;
     padding: 10px 0;
-    border-top: 1px solid rgba(255, 225, 0, 0.3); /* opcional, separa visualmente */
 }
 
 .map-wrapper iframe {
@@ -58,4 +57,5 @@ footer {
     #map-container {
         max-width: 370px;
     }
+
 }
