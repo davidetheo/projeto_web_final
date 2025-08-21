@@ -7,7 +7,6 @@ header {
     background-color: black;
     z-index: 3;
     box-shadow: none;
-    transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 /* Navbar */
@@ -34,7 +33,6 @@ header {
     color: #fff7e0;
     font-weight: 600;
     padding-bottom: 5px;
-    transition: border-bottom 0.3s ease, color 0.3s ease;
 }
 
 /* Sublinhado do item ativo */
@@ -90,3 +88,4 @@ header {
     }
 
 }
+
