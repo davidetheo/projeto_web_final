@@ -3,7 +3,6 @@ $(document).ready(function () {
     const navItems = $('.nav-item'); 
     const mobileNavItems = $('#mobile_nav_list .nav-item'); 
     const currentPage = window.location.pathname.split("/").pop() || 'index.html';
-    const sections = $('section'); // só para index.html
 
     // ---------- MENU MOBILE ----------
     $('#mobile_btn').on('click', function () {
@@ -76,4 +75,5 @@ $(document).ready(function () {
             arrow.css('transform', 'rotate(180deg)');
         }
     });
+
 });
