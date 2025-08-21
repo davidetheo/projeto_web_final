@@ -10,7 +10,7 @@
     width: 406px;
     height: 610px;
     border-radius: 12px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 #testimonials .section-subtitle {
@@ -95,4 +95,5 @@
     .feedback {
         flex-direction: column;
     }
+
 } 
