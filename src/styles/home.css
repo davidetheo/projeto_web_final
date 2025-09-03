@@ -28,6 +28,10 @@
     font-size: 1.2rem;
 }
 
+.burger-description {
+    font-size: 0.9rem;
+}
+
 #cta_buttons {
     display: flex;
     gap: 24px;
@@ -104,4 +108,5 @@
     #phone_button button {
         display: none;
     }
+
 }
