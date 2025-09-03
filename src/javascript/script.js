@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    const overlay = $('#page-transition');
     const navItems = $('.nav-item'); 
     const mobileNavItems = $('#mobile_nav_list .nav-item'); 
     const currentPage = window.location.pathname.split("/").pop() || 'index.html';
@@ -77,3 +76,4 @@ $(document).ready(function () {
     });
 
 });
+
