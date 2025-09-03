@@ -10,7 +10,7 @@ $(document).ready(function () {
         $(this).find('i').toggleClass('fa-x');
     });
 
-    // ---------- FADE-IN / SLIDE OUT AO CARREGAR ----------
+    // ---------- FADE-IN / FADE-OUT AO CARREGAR ----------
     setTimeout(function () {
         overlay.removeClass('active');
 
@@ -77,5 +77,6 @@ $(document).ready(function () {
     });
 
 });
+
 
 
