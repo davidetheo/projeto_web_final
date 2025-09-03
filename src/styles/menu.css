@@ -46,6 +46,7 @@
 .burger-description {
     color: #434343;
     text-align: center;
+    font-size: 0.9rem;
 }
 
 .burger-rate i {
@@ -77,4 +78,5 @@
     #menu .section-subtitle {
         text-align: center;
     }
+
 }
