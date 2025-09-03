@@ -37,7 +37,7 @@ $(document).ready(function () {
     ScrollReveal().reveal('#testimonial_chef', { origin: 'left', duration: 2000, distance: '20%' });
     ScrollReveal().reveal('#faq-container', { origin: 'left', duration: 2000, distance: '20%' });
     
-    // Anima cada item do conteiner
+    // Anima cada item do conteiner separadamente
     ScrollReveal().reveal('.faq-item', { 
         origin: 'left', 
         duration: 2000, 
@@ -76,6 +76,7 @@ $(document).ready(function () {
     });
 
 });
+
 
 
 
